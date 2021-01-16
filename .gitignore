@@ -1,0 +1,23 @@
+etutor-frontend/.DS_Store
+etutor-frontend/node_modules
+etutor-frontend//dist
+
+
+# local env files
+etutor-frontend/.env.local
+etutor-frontend/.env.*.local
+
+# Log files
+etutor-frontend/npm-debug.log*
+etutor-frontend/yarn-debug.log*
+etutor-frontend/yarn-error.log*
+etutor-frontend/pnpm-debug.log*
+
+# Editor directories and files
+etutor-frontend/.idea
+etutor-frontend/.vscode
+etutor-frontend/*.suo
+etutor-frontend/*.ntvs*
+etutor-frontend/*.njsproj
+etutor-frontend/*.sln
+etutor-frontend/*.sw?
