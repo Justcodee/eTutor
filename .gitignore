@@ -21,3 +21,9 @@ etutor-frontend/*.ntvs*
 etutor-frontend/*.njsproj
 etutor-frontend/*.sln
 etutor-frontend/*.sw?
+
+
+##Backend
+etutor-backend/node_modules
+etutor-backend/.env.local
+etutor-backend/.env.*.local
