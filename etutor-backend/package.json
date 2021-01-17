@@ -1,0 +1,25 @@
+{
+  "name": "etutor-backend",
+  "version": "1.0.0",
+  "description": "Backend for etutor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justcodee/eTutor.git"
+  },
+  "author": "just code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justcodee/eTutor/issues"
+  },
+  "homepage": "https://github.com/Justcodee/eTutor#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
