@@ -8,9 +8,15 @@ app.use(morgan('combined'));
 app.use(Express.json());
 app.use(cors());
 
+//Endpoints
 app.get('/home', (req, res) => {
   res.send({
     message: 'hello world',
+  });
+});
+app.post('/register', (req, res) => {
+  res.send({
+    message: `user with email ${req.body.email} was submitted`,
   });
 });
 

@@ -1,5 +1,7 @@
 <template>
-  <p>Hello from the component</p>
+  <div>
+    <p>Hello from the component</p>
+  </div>
 </template>
 
 <script>
