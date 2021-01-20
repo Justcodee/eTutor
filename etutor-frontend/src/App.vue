@@ -1,30 +1,27 @@
 <template>
-  <div id="app">
-    <router-view/>
-    <button >
-  </div>
-
+  <v-app>
+    <!-- Sizes your content based upon application components -->
+    <v-main>
+      <router-view></router-view>
+      <HelloWorld></HelloWorld>
+      <v-container>
+        <v-btn v-on:click="counter += 1">click</v-btn>
+        <p>{{ counter }}</p>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import HelloWorld from './components/HelloWorld.vue';
 
-#nav {
-  padding: 30px;
-}
+export default {
+  name: 'App',
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  components: {
+    HelloWorld,
+  },
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({}),
+};
+</script>
