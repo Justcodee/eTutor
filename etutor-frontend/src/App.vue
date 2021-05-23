@@ -11,3 +11,9 @@ export default {
   data: () => ({}),
 };
 </script>
+<style>
+body{
+  background-color: rgb(1, 1, 22);
+  height: 150vh;
+}
+</style>
