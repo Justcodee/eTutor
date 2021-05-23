@@ -6,12 +6,12 @@
     </div>
     <div class="list">
       <ul>
-        <li><a href="#">Overview</a></li>
-         <li><a href="#">Profile</a></li>
-          <li><a href="#">My Courses</a></li>
+        <li><img src="../assets/overvie.svg" alt="" srcset=""> <a href="#">Overview</a></li>
+         <li><img src="../assets/profile.svg" alt="" srcset=""><a href="#"> Profile</a></li>
+          <li><img src="../assets/book.png" alt="" srcset=""><a href="#"> My Courses</a></li>
       </ul>
     </div>
-    <div class="logout"> <p>logout</p></div>
+    <div class="logout"><img src="../assets/exit.svg" alt="" srcset=""> <p>logout</p></div>
   </div>
 </template>
 
@@ -55,6 +55,10 @@ export default {
 .list ul li{
   margin-bottom: 10px;
 }
+.list ul li img{
+  height: 20px;
+  width: 20px;
+}
 .list ul li a{
   text-decoration: none;
   color: #fff;
@@ -62,5 +66,13 @@ export default {
 .logout{
   margin-top: auto;
   color:#fff;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.logout img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 </style>
